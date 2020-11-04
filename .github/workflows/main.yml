@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: shyd/action-delete-release@v1
+      uses: shyd/action-delete-release@v2
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         release_tag: tdevelop-ongoing
