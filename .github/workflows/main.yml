@@ -19,5 +19,5 @@ jobs:
         file: README.md
         prerelease: true
         asset_name: wj200_modbus_comm.armhf.tar.gz
-        tag: develop-ongoing
+        #tag: develop-ongoing
         body: "Built from commit: ${{ github.sha }}"
