@@ -10,7 +10,7 @@ jobs:
       uses: shyd/action-delete-release@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        release_tag: ${{ github.ref }}
+        release_tag: main
         
     - name: Upload binaries to release
       uses: svenstaro/upload-release-action@v2
