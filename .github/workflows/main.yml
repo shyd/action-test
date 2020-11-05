@@ -20,4 +20,5 @@ jobs:
         prerelease: true
         asset_name: wj200_modbus_comm.armhf.tar.gz
         #tag: develop-ongoing
+        tag: ${{ github.ref }}
         body: "Built from commit: ${{ github.sha }}"
